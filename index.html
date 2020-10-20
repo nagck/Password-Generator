@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Password Generator</title>
+     <!-- css reset stylesheet -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <!-- css link for style -->
+     <link rel="stylesheet" href="css/style.css"/>
+  </head>
+  <body>
+    <!--Wrapper container for all of the content-->
+    <div class="wrapper">
+      <header>
+        <h1>Password Generator</h1>
+      </header>
+      <!--Main content area-->
+      <div class="card">
+        <div class="card-header">
+          <h2>Generate a Password</h2>
+        </div>
+        <!-- Text area for output-->
+        <div class="card-body">
+          <textarea
+            readonly
+            id="password"
+            placeholder="Your Secure Password"
+            aria-label="Generated Password"
+          ></textarea>
+        </div>
+        <!-- Footer/button -->
+        <div class="card-footer">
+          <button id="generate" class="btn">Generate Password</button>
+        </div>
+      </div>
+    </div>
+    <!-- Link to Javascript-->
+    <script src="scripts/script1.js"></script>
+  </body>
+</html>
