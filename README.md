@@ -1,2 +1,2 @@
 # password-generator
-Password Generator - Assignment 3
+Password Generator using JavaScript - Assignment 3
